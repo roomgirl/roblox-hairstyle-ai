@@ -1,0 +1,76 @@
+# Roblox + Blender pipeline for hairstyle assets
+
+## Goal
+
+This guide is for making hair that looks good in Blender and can be adapted for Roblox-friendly stylized models.
+
+## Suggested workflow
+
+### 1. Start with a reference head
+
+Use a simple UV sphere or a stylized head base as a reference.
+Keep the hair volume around the crown and front silhouette.
+
+### 2. Build hair cards
+
+Use card-based hair rather than modeling every strand.
+This is faster and works well with stylized Roblox aesthetics.
+
+### 3. Keep the silhouette readable
+
+Good Roblox hair usually emphasizes:
+- front silhouette
+- top volume
+- clean side profile
+- simple curls or waves
+
+### 4. Use low complexity
+
+Avoid excessive geometry.
+For a Roblox asset, the haircut should feel readable from a distance without too much density.
+
+## Blender setup tips
+
+- Use a simple material with a solid color to start.
+- Keep shapes smooth but not over-subdivided.
+- Randomize rotation slightly so the hair does not look too uniform.
+- Group the hair into a single collection for easier export.
+
+## Export tips
+
+- Export as FBX or OBJ when moving to Roblox Studio.
+- Clean transforms before export.
+- Make sure the origin is consistent.
+- Keep the mesh clean: no extra hidden geometry, no stray objects.
+
+## Roblox Studio adaptation
+
+In Roblox Studio:
+
+- import the mesh as a standard accessory or head geometry
+- apply a simple hair material or texture if needed
+- test the thickness and volume from front and side views
+- adjust scale for your avatar proportions
+
+## Good hairstyle types for Roblox
+
+These tend to work well:
+- bobs
+- afros
+- ponytails
+- braids
+- pixie cuts
+- layered curls
+- simple bangs
+
+## Bad signs
+
+Avoid:
+- too many strands with no silhouette
+- overwhelming volume that blocks the face
+- messy topology
+- excessive floating pieces that look broken in-game
+
+## Recommended next step
+
+Once you have a style you like in Blender, the next step is to use the prompt builder to generate variations and then iterate on the best silhouette.
